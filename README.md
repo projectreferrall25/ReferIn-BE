@@ -1,10 +1,17 @@
 # ReferIn-BE
 
-To activate venv
+# Crete venv
+
+python -m venv venv
+
+# To activate venv
+
 venv\Scripts\activate
 
-To inatall all dependencies
+# To inatall all dependencies
+
 pip install -r requirements.txt
 
-To run app
+# To run app
+
 uvicorn app.main:app --reload
